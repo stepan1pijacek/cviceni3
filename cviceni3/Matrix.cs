@@ -38,6 +38,7 @@ namespace cviceni3
             catch
             {
                 Console.WriteLine("Error: incorect matrix size");
+                throw new Exception("Error: incorect matrix size");
             }
 
             return a;
@@ -67,6 +68,7 @@ namespace cviceni3
             catch
             {
                 Console.WriteLine("Error: incorect matrix size");
+                throw new Exception("Error: incorect matrix size");
             }
             return a;
         }
@@ -99,7 +101,7 @@ namespace cviceni3
             catch
             {
                 Console.WriteLine("Error: incorect matrix size");
-
+                throw new Exception("Error: incorect matrix size");
             }
 
             return a;
@@ -208,6 +210,7 @@ namespace cviceni3
             catch
             {
                 Console.WriteLine("Size of matrix is bigger then 3x3");
+                throw new Exception("Error: incorect matrix size");
             }
             return 0;
         }
