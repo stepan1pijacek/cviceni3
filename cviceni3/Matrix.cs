@@ -86,7 +86,7 @@ namespace cviceni3
                     for (int j = 0; j < c.GetLength(1); j++)
                     {
                         c[i, j] = 0;
-                        for (int k = 0; k < a.matrix.GetLength(1); k++) // OR k<b.GetLength(0)
+                        for (int k = 0; k < a.matrix.GetLength(1); k++) 
                             c[i, j] = c[i, j] + a.matrix[i, k] * b.matrix[k, j];
                     }
                 }
