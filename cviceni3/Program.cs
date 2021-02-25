@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace cviceni3
 {
+    /// <summary>
+    /// Basic test for all the matrix functions
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -40,7 +43,7 @@ namespace cviceni3
             Console.WriteLine("Nonequal?");
             Console.WriteLine(m1 != m2);
             Console.WriteLine("Getting determinant of first matrix...");
-            Console.WriteLine(m2.Determinant());
+            Console.WriteLine(m1.Determinant());
             Console.ReadKey();
         }
     }
